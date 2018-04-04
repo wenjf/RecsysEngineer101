@@ -9,6 +9,7 @@ You may assume no duplicate exists in the array.
 */
 
 /*
+特殊情况：没有pivot point
 二分搜索，难点在于判断条件；
 */
 
