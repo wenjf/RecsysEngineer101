@@ -1,5 +1,7 @@
 /*
-
+平衡BST需要用到；
+平衡的BST能避免不平衡带来的极端情况
+C++STL的map就是一个balanced BST；其优点在于有序；C++11中的unordered_map则是Hash实现的，无序。
 */
 
 
