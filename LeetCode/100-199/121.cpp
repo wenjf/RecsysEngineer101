@@ -1,3 +1,8 @@
+/*
+* 这个过程中的循环不变式是什么？
+* max_profit 
+*/
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
