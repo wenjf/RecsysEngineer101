@@ -1,7 +1,7 @@
 #include<vector>
 
 using namespace std;
-// heap
+// ------------------------------------------------------- heap ---------------------------------
 // -- method 1 -- 
 vector<int> maxHeap;
 make_heap(maxHeap.begin(), maxHeap.end()); // 建堆，默认最大堆，cmp 是 < ， 
@@ -19,15 +19,15 @@ priority_queue<int> pq; // 默认也是最大堆
 // -- enf of method 2 -- 
 
 
-// hash map
+// ------------------------------------------------------- hash map -------------------------------------------------------
 
-// hash set
+// ------------------------------------------------------- hash set -------------------------------------------------------
 
 
 // count element freq use stl
 
 
-// partition，也就是快排的partition算法，常用语求解top K问题 
+// ------------------------------------------------------- partition，也就是快排的partition算法，常用语求解top K问题 -------------------------------------------------------
 vector<int> nums;
 int k;
 nth_element(nums.begin(), nums.begin() + k -1, nums.end()); 
@@ -38,3 +38,5 @@ auto iter = lower_bound(nums.begin(), nums.end(), target); // 找到第一个大
 auto iter upper_bound(nums.begin(), nums.end(), target); // 找到第一个小于target元素对应的iterator
 // 要求nums是有序的
 // iter的类型为iterator
+
+// ------------------------------------------------------- monotonic stack -------------------------------------------------------
